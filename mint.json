@@ -1,5 +1,5 @@
 {
-  "name": "Royalty",
+  "name": "Royalty GG",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -50,7 +50,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["1whatisroyalty", "2howitworks", "3feesandloyalty","4sellers","5faq"]
+      "pages": ["1whatisroyalty", "2howitworks", "3feesandloyalty", "4sellers", "5faq"]
     },
     {
       "group": "Essentials",
