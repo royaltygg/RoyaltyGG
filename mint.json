@@ -51,7 +51,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["intro", "quickstart", "development"]
+      "pages": ["1whatisroyalty", "2howitworks", "3feesandloyalty","4sellers"]
     },
     {
       "group": "Essentials",
