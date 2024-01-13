@@ -58,18 +58,18 @@
       "pages": [
         "1whatisroyalty",
         "2howitworks",
-         {
-          "group": "Fees And Loyalty",
-          "pages": [
-            "fees-loyalty/buyer",
-            "fees-loyalty/seller"
-          ]
-        },
         "4sellers",
         "5faq"
       ]
     },
-        {
+     {
+          "group": "Fees And Loyalty",
+          "pages": [
+            "fees-loyalty/buyer-fees",
+            "fees-loyalty/seller-fees"
+          ]
+     },
+      {
       "group": "API Documentation",
       "pages": ["api-reference/comingsoon"]
     }
