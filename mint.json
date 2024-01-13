@@ -61,8 +61,8 @@
          {
           "group": "Fees And Loyalty",
           "pages": [
-            "fees-loyalty/buyers",
-            "fees-loyalty/sellers"
+            "fees-loyalty/buyer",
+            "fees-loyalty/seller"
           ]
         },
         "4sellers",
