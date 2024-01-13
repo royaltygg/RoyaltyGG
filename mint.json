@@ -21,8 +21,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Convert Now",
+    "url": "https://royalty.gg"
   },
   "tabs": [
     {
@@ -32,19 +32,24 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
+      "name": "Dashboard",
+      "icon": "bullseye-arrow",
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Twitter",
+      "icon": "x-twitter",
+      "url": "https://x.com/royaltygg"
     },
     {
       "name": "Updates",
       "icon": "newspaper",
       "url": "https://royalty.gg/release-notes"
+    },
+    {
+      "name": "Apply to Sell",
+      "icon": "piggy-bank",
+      "url": "https://royalty.gg/apply"
     }
   ],
   "navigation": [
