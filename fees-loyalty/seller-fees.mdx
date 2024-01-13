@@ -5,74 +5,45 @@ icon: "id-badge"
 iconType: "duotone"
 ---
 
-<AccordionGroup>
-  <Accordion title="Why can't I login?">
-    If retrying to login multiple times do not work for you, there is a possibility that the Steam login services are down. Please refer to the `https://steamstat.us/` page to be informed. However, in rare cases, you will not be able to login if you are banned by our services for violating our terms of service.
-  </Accordion>
-  <Accordion title="Do I need to link a stream API key?">
-    No you will never need to utilize your Steam API key, if anyone asks for your Steam API key it is most likely a scam.
-  </Accordion>
-  <Accordion title="I received support outside of the website, is it legit?">
-    We do not provide support anywhere, if anyone asks for your information or personal details, it is most certainly a scam.
-    Be sure to double check the links you click, check the website URL is correct, and do not talk to random people posing as us.
-  </Accordion>
-  <Accordion title="Can I deposit a small amount?">
-    Crypto: You can deposit any amount to your unique wallets, however you will need to cover the necessary gas fees to process that deposit. So tread carefully.
-  </Accordion>
-  <Accordion title="I deposited, but I got less than what I deposited">
-    We take a fee on each deposit, and depending on each deposit tier and your loyalty tier, you will be charged a specific fee. Read more [here](https://docs.royalty.gg/fees).
-  </Accordion>
-   <Accordion title="I deposited but my balance is still zero.">
-    There could be a few reasons why this occurred
-        1. You deposited to the wrong address, make sure you triple check the address before paying. Our platform will not be liable for any deposits lost, you can try sending a small deposit just to make sure before sending the rest of your intended top-up.
-        2. Your transaction is still pending, (crypto) we require a minimum of `x` confirmations on the blockchain before your balance is released. Check the block explorer link to track your transaction
-    We do not withhold any funds from our customers.
-  </Accordion>
-  <Accordion title="Can I deposit with multiple wallets?">
-    Yes you can!
-  </Accordion>
-  <Accordion title="Can I use my wallet on multiple accounts?">
-    Yes you can!
-  </Accordion>
-  <Accordion title="I clicked on “Max” for the amount I wish to convert, but it is different from my exchanges rates, why is that?">
-    We base our rates on `xxx` exchange, so different exchanges have different rates. But we do our best to keep our rates as transparent as possible
-  </Accordion>
-  <Accordion title="My image upload failed, what do I do?">
-    Please attempt to try again with a higher resolution or even a desktop screenshot tool for better results.
-  </Accordion>
-  <Accordion title="My top-up failed, what should I do?">
-    Make sure you have the right image uploaded and the image is clear for our system to scan.
-    If your top-up failed, do not worry, your balance will automatically reappear for you to retry the topup.
-  </Accordion>
-  <Accordion title="My top-up is still processing">
-    Refresh the page if it is processing for a long time, chances are your top-up has already been successful. If not, your balance will reappear and you can top-up again.
-  </Accordion>
-  <Accordion title="My transaction history is not showing my latest transactions">
-    Some transactions can take some time to show up, but rest assured your transaction history is properly logged, and will show up as soon as possible.
-  </Accordion>
-  <Accordion title="How come I am prevented from adjusting my information?">
-    To protect our users, any changes you attempt to make will incur a 7-day cooldown, this will give our users sufficient time to evaluate if these actions are performed by them.
-  </Accordion>
-  <Accordion title="If I deposited today, will I instantly get my loyalty discounts?">
-    No, for buyers, we base your loyalty on how much you deposit and convert. 
-    For sellers, we base your loyalty levels on how much RMB you have deposited and "sold" to buyers.
-  </Accordion>
-</AccordionGroup>
+As a seller, when you deposit RMB (¥) into Royalty, fees are charged depending on your deposit amount **and** loyalty level. These fees are calculated at the time you deposit and can be influenced by external costs we incur to facilitate your transaction.
 
-## Sellers
+<Warning>
+Before submitting your deposit, make sure you view the fees on this page.
+</Warning>
 
-<AccordionGroup>
-  <Accordion title="I sent in funds for deposit, but my total deposited RMB is still 0">
-    Funds do not immediately show up unless our system has approved and verified your payment. If it does not show up within 24 hours, your payment has most likely been refunded or bounced.
-  </Accordion>
-  <Accordion title="How come my total deposited amount is different from my actual sent amount?">
-    We take a fee on each deposit, and depending on each deposit tier and your loyalty tier, you will be charged a specific fee. Read more [here](https://docs.royalty.gg/fees).
+## Deposit Fees
 
-  </Accordion>
-  <Accordion title="I have not received my payout">
-    We usually help you easily track your payout history in the seller transaction history tab, make sure to take a look [here](https://sell.royalty.gg/transactions) and see if your payout is still pending.
-  </Accordion>
-  <Accordion title="I connected a designated payout wallet, can i change it?">
-    Yes, you can change it anytime. However, any outstanding expected payouts will still go to the old wallet you have attached. Only new incoming payouts after your wallet has been connected will be paid out to your new wallet.
-  </Accordion>
-</AccordionGroup>
+Deposit fees are calculated purely off your deposit amount. Below is a chart that lists all the deposit ranges and their respective transaction fees.
+<img
+  className="block dark:hidden rounded-md"
+  src="/images/sellerfees-light.png"
+  alt="Seller Fees Light"
+/>
+<img
+  className="hidden dark:block"
+  src="/images/sellerfees-dark.png"
+  alt="Seller Fees Dark"
+/>
+
+## Loyalty Discounts
+
+Loyalty discounts are calculated off your deposit history. Below is a chart that lists all the loyalty levels with their respective deposit history ranges and discounts.
+
+<img
+  className="block dark:hidden rounded-md"
+  src="/images/sellerloyalty-light.png"
+  alt="Seller Loyalty Light"
+/>
+<img
+  className="hidden dark:block"
+  src="/images/sellerloyalty-dark.png"
+  alt="Seller Loyalty Dark"
+/>
+
+<Warning>
+Loyalty discounts are not % off (how traditional % discounts work). Instead, they are the **face value that gets subtracted** from the transaction fee.
+</Warning>
+
+### Example
+
+Seller A is **depositing** `¥150,000`. Seller A has **previously deposited** a cumulative total of `¥1,200,000`. Based on the deposit fee chart above, Seller A will incur a `4.3%` **transaction fee**. Now based on the loyalty chart above, Seller A will recieve `0.7%` **subtracted** from the transacion fee of 6.7%. This results in a final deposit fee of `3.6%` (4.3% - 0.7%).
