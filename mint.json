@@ -68,6 +68,10 @@
         "4sellers",
         "5faq"
       ]
+    },
+        {
+      "group": "API Documentation",
+      "pages": ["api-reference/comingsoon"]
     }
   ],
   "footerSocials": {
