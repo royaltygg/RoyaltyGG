@@ -53,13 +53,21 @@
     }
   ],
   "navigation": [
-    {
+     {
       "group": "Getting Started",
-      "pages": ["1whatisroyalty", "2howitworks", "3feesandloyalty", "4sellers", "5faq"]
-    },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": [
+        "1whatisroyalty",
+        "2howitworks",
+                {
+          "group": "Fees And Loyalty",
+          "pages": [
+            "fees-loyalty/buyers",
+            "fees-loyalty/sellers"
+          ]
+        },
+        "4sellers",
+        "5faq"
+      ]
     }
   ],
   "footerSocials": {
