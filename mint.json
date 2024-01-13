@@ -24,7 +24,7 @@
     "name": "Convert Now",
     "url": "https://royalty.gg"
   },
-  "tabs": [
+    "tabs": [
     {
       "name": "API Reference",
       "url": "api-reference"
@@ -58,11 +58,11 @@
       "pages": [
         "1whatisroyalty",
         "2howitworks",
-                {
+         {
           "group": "Fees And Loyalty",
           "pages": [
-            "fees-loyalty/buyers",
-            "fees-loyalty/sellers"
+            "fees-loyalty/buyer",
+            "fees-loyalty/seller"
           ]
         },
         "4sellers",
