@@ -24,12 +24,6 @@
     "name": "Convert Now",
     "url": "https://royalty.gg"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
       "name": "Dashboard",
