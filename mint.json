@@ -58,7 +58,6 @@
       "pages": [
         "1whatisroyalty",
         "2howitworks",
-        "3supportedcrypto",
         "4sellers",
         "5faq"
       ]
@@ -68,6 +67,13 @@
           "pages": [
             "fees-loyalty/buyer-fees",
             "fees-loyalty/seller-fees"
+          ]
+     },
+     {
+          "group": "Supported Deposit Methods",
+          "pages": [
+            "deposit-methods/crypto",
+            "deposit-methods/morecomingsoon"
           ]
      },
       {
