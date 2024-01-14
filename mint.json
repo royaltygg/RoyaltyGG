@@ -17,7 +17,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:help@royalty.gg"
     }
   ],
   "topbarCtaButton": {
@@ -34,7 +34,7 @@
     {
       "name": "Dashboard",
       "icon": "bullseye-arrow",
-      "url": "https://mintlify.com/docs"
+      "url": "https://royalty.gg"
     },
     {
       "name": "Twitter",
@@ -75,7 +75,7 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
+    "twitter": "https://x.com/royaltygg",
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
